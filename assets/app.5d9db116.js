@@ -11,11 +11,12 @@ let allBoardItems
 
 setInterval(function(){
     refreshAllBoardItems()
-}, 30000)
+    console.log("run")
+}, 10000)
 
 
 
-function refreshBoardItems(){
+function refreshAllBoardItems(){
 	allBoardItems = await miro.board.widgets.get({type: 'sticker'})
 	console.log(allBoardItems)
 }
