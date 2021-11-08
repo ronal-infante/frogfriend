@@ -1,4 +1,5 @@
 /* empty css              */
+console.log("loaded index.js");
 miro.onReady((() => {
     miro.initialize({
         extensionPoints: {
