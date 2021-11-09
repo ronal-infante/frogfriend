@@ -16,7 +16,7 @@ setInterval(function(){
 
 
 
-function refreshAllBoardItems(){
+async function refreshAllBoardItems(){
 	allBoardItems = await miro.board.widgets.get({type: 'sticker'})
 	console.log(allBoardItems)
 }
