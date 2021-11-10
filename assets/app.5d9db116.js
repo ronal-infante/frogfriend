@@ -8,7 +8,7 @@ miro.onReady((async function() {
 	const moveByMax = 501;
 	const destructionAmt = 4;
 	const speed = 500;
-	const unsplashTimeInt = 90000; // 1.5min. Unsplash Demo max is 50req/hr: once every 1.2min
+	const unsplashTimeInt = 120000; // 1.5min. Unsplash Demo max is 50req/hr: once every 1.2min
 
 	// Inits
 	let allBoardItems = await miro.board.widgets.get();
@@ -113,7 +113,7 @@ miro.onReady((async function() {
 
 					});
 
-					url = url + "&per_page=1&client_id=26pZchV3ORWguGwAf7sEdi8Bzd0eUU2qfHzZMAWDTp8";
+					url = url + "&per_page=1&client_id=q-2bUMjTD3C2I2pNfMwkNqIralzE_6UeMQufeMsfUFc";
 					console.log(url);
 
 
