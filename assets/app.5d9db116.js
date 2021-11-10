@@ -57,7 +57,7 @@ miro.onReady((async function() {
 
 
 		// Leave these alone pls + thank you
-		if (item.id == 3074457367381537181 /* Event plaque image from Laura */ || item.id == 3074457367381537282 /* Frame */ || item.id == 3074457367381537346 /* Link */ ) { console.log("nope"); return; }
+		if (item.id == 3074457367383407513 /* Event plaque image from Laura */ || item.id == 3074457367383407515 /* Frame */ || item.id == 3074457367383407514 /* Link */ ) { console.log("nope"); return; }
 		
 		
 		//let action = 0; // For TS
