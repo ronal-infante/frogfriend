@@ -57,7 +57,7 @@ miro.onReady((async function() {
 
 
 		// Leave these alone pls + thank you
-		if (item.id == 3074457367383407513 /* Event plaque image from Laura */ || item.id == 3074457367383407515 /* Frame */ || item.id == 3074457367383407514 /* Link */ ) { console.log("nope"); return; }
+		if (item.id == 3074457367391970304 /* Event plaque image from Laura */ || item.id == 3074457367391970306 /* Frame */ || item.id == 3074457367391970305 /* Link */ ) { console.log("nope"); return; }
 		
 		
 		//let action = 0; // For TS
@@ -181,7 +181,7 @@ miro.onReady((async function() {
 			for (var i = Math.floor(maxItems / destructionAmt) - 1; i >= 0; i--) {
 
 				let item = allBoardItems[getRando(allBoardItems.length)];
-				if (item.id == 3074457367235684021 || item.id == 3074457367236289430 || item.id == 3074457367236008061 || item.id == 3074457367236186083 || item.id == 3074457367236111275 || item.id == 3074457367236111356) { console.log("nope"); return; }
+				if (item.id == 3074457367391970304 /* Event plaque image from Laura */ || item.id == 3074457367391970306 /* Frame */ || item.id == 3074457367391970305 /* Link */ ) { console.log("nope"); return; }
 
 				miro.board.widgets.deleteById(item.id);
 
